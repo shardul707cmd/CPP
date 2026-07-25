@@ -46,7 +46,7 @@ int main (){
             std::cout << "Found a wolf at index " << i << ": ";
             wolfPtr->speak();  
         }
+        delete animals[i]; 
     }
-    delete animals[10];
     return 0;
 }
