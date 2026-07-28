@@ -48,6 +48,7 @@ void speak(T a){
 
 int main (){
    Dog d;
+   
    speak(d);
     return 0;
 
